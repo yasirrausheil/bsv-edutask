@@ -25,4 +25,4 @@ jobs:
 
       - name: Run backend tests
         working-directory: ./backend
-        run: pytest 
+        run: pytest -v test/lab_kod/get_user_by_email_test.py 
